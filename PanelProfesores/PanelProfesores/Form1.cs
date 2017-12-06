@@ -38,5 +38,13 @@ namespace PanelProfesores
             myForm.ShowDialog();
             this.Close();
         }
+
+        private void btn_niveles_Click(object sender, EventArgs e)
+        {
+        
+
+            FormSubirNiveles formSubirNiveles = new FormSubirNiveles();
+            formSubirNiveles.Show();
+        }
     }
 }

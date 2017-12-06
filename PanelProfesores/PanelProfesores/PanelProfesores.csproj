@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAlumnoSegundo.cs" />
+    <Compile Include="DComponentDecorator.cs" />
+    <Compile Include="DPuntosAlumno.cs" />
+    <Compile Include="DPuntosBaseAlumno.cs" />
+    <Compile Include="DPuntosColores.cs" />
+    <Compile Include="DPuntosMatematicas.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSubirNiveles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSubirNiveles.Designer.cs">
+      <DependentUpon>FormSubirNiveles.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBuilder.cs">
       <SubType>Form</SubType>
@@ -110,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMediator.resx">
       <DependentUpon>FormMediator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSubirNiveles.resx">
+      <DependentUpon>FormSubirNiveles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

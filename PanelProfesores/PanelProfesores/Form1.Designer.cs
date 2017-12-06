@@ -31,14 +31,14 @@
             this.btn_calificaciones = new System.Windows.Forms.Button();
             this.bttnInfoProf = new System.Windows.Forms.Button();
             this.bttnTerminados = new System.Windows.Forms.Button();
+            this.btn_niveles = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_calificaciones
             // 
-            this.btn_calificaciones.Location = new System.Drawing.Point(101, 22);
-            this.btn_calificaciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_calificaciones.Location = new System.Drawing.Point(76, 18);
             this.btn_calificaciones.Name = "btn_calificaciones";
-            this.btn_calificaciones.Size = new System.Drawing.Size(132, 31);
+            this.btn_calificaciones.Size = new System.Drawing.Size(99, 25);
             this.btn_calificaciones.TabIndex = 0;
             this.btn_calificaciones.Text = "Calificaciones";
             this.btn_calificaciones.UseVisualStyleBackColor = true;
@@ -46,9 +46,10 @@
             // 
             // bttnInfoProf
             // 
-            this.bttnInfoProf.Location = new System.Drawing.Point(268, 258);
+            this.bttnInfoProf.Location = new System.Drawing.Point(201, 210);
+            this.bttnInfoProf.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bttnInfoProf.Name = "bttnInfoProf";
-            this.bttnInfoProf.Size = new System.Drawing.Size(99, 51);
+            this.bttnInfoProf.Size = new System.Drawing.Size(74, 41);
             this.bttnInfoProf.TabIndex = 1;
             this.bttnInfoProf.Text = "Información del Profesor";
             this.bttnInfoProf.UseVisualStyleBackColor = true;
@@ -56,23 +57,34 @@
             // 
             // bttnTerminados
             // 
-            this.bttnTerminados.Location = new System.Drawing.Point(163, 265);
+            this.bttnTerminados.Location = new System.Drawing.Point(122, 215);
+            this.bttnTerminados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bttnTerminados.Name = "bttnTerminados";
-            this.bttnTerminados.Size = new System.Drawing.Size(99, 37);
+            this.bttnTerminados.Size = new System.Drawing.Size(74, 30);
             this.bttnTerminados.TabIndex = 2;
             this.bttnTerminados.Text = "Terminados";
             this.bttnTerminados.UseVisualStyleBackColor = true;
             this.bttnTerminados.Click += new System.EventHandler(this.bttnTerminados_Click);
             // 
+            // btn_niveles
+            // 
+            this.btn_niveles.Location = new System.Drawing.Point(77, 60);
+            this.btn_niveles.Name = "btn_niveles";
+            this.btn_niveles.Size = new System.Drawing.Size(97, 22);
+            this.btn_niveles.TabIndex = 3;
+            this.btn_niveles.Text = "Subir niveles";
+            this.btn_niveles.UseVisualStyleBackColor = true;
+            this.btn_niveles.Click += new System.EventHandler(this.btn_niveles_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 321);
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btn_niveles);
             this.Controls.Add(this.bttnTerminados);
             this.Controls.Add(this.bttnInfoProf);
             this.Controls.Add(this.btn_calificaciones);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -84,6 +96,7 @@
         private System.Windows.Forms.Button btn_calificaciones;
         private System.Windows.Forms.Button bttnInfoProf;
         private System.Windows.Forms.Button bttnTerminados;
+        private System.Windows.Forms.Button btn_niveles;
     }
 }
 
