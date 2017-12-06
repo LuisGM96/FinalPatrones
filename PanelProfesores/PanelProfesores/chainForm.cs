@@ -42,5 +42,13 @@ namespace PanelProfesores
             a[3].id = 4;
             a[3].calificacion = 6;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 myForm = new Form1();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
     }
 }
