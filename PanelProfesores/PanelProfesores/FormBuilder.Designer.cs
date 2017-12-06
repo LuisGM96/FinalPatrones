@@ -37,7 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.score = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.createGameScoreButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // testTimesListBox
@@ -74,6 +74,7 @@
             this.calTimeButton.TabIndex = 3;
             this.calTimeButton.Text = "Calcular puntuación";
             this.calTimeButton.UseVisualStyleBackColor = true;
+            this.calTimeButton.Click += new System.EventHandler(this.calTimeButton_Click);
             // 
             // calTimeTextBox
             // 
@@ -105,9 +106,9 @@
             this.score.AutoSize = true;
             this.score.Location = new System.Drawing.Point(138, 121);
             this.score.Name = "score";
-            this.score.Size = new System.Drawing.Size(40, 13);
+            this.score.Size = new System.Drawing.Size(46, 13);
             this.score.TabIndex = 7;
-            this.score.Text = "Puntos";
+            this.score.Text = "Puntos: ";
             // 
             // label4
             // 
@@ -119,22 +120,23 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Tiempo a calcular";
             // 
-            // button1
+            // createGameScoreButton
             // 
-            this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(12, 201);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Crear escala";
-            this.button1.UseVisualStyleBackColor = true;
+            this.createGameScoreButton.Enabled = false;
+            this.createGameScoreButton.Location = new System.Drawing.Point(12, 201);
+            this.createGameScoreButton.Name = "createGameScoreButton";
+            this.createGameScoreButton.Size = new System.Drawing.Size(75, 23);
+            this.createGameScoreButton.TabIndex = 9;
+            this.createGameScoreButton.Text = "Crear escala";
+            this.createGameScoreButton.UseVisualStyleBackColor = true;
+            this.createGameScoreButton.Click += new System.EventHandler(this.createGameScoreButton_Click);
             // 
             // FormBuilder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 315);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.createGameScoreButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.score);
             this.Controls.Add(this.label2);
@@ -162,6 +164,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label score;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button createGameScoreButton;
     }
 }

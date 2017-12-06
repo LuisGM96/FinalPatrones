@@ -11,9 +11,15 @@ namespace PanelProfesores
         public int minTime, maxTime;
         public int calculate(int time)
         {
-            int ans = 100 - ((time - minTime) / (maxTime - minTime)) * 100;
-            ans = Math.Min(Math.Max(ans, 0), 100);
-            return ans;
+            if (maxTime - minTime != 0)
+            {
+                int ans = 100 - (((time - minTime) * 100) / (maxTime - minTime));
+                ans = Math.Min(Math.Max(ans, 0), 100);
+                return ans;
+            } else
+            {
+                return 100;
+            }
         }
     }
 }
