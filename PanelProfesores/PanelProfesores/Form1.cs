@@ -17,12 +17,10 @@ namespace PanelProfesores
             InitializeComponent();
         }
 
-        private void bttnProxyInfoProf_Click(object sender, EventArgs e)
+        private void btn_calificaciones_Click(object sender, EventArgs e)
         {
-            FormEdad fEdad = new FormEdad();
-            this.Hide();
-            fEdad.ShowDialog();
-            this.Close();
+            FormCalificaciones formCalificaciones = new FormCalificaciones();
+            formCalificaciones.Show();
         }
     }
 }

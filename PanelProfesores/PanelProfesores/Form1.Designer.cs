@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.bttnProxyInfoProf = new System.Windows.Forms.Button();
+            this.btn_calificaciones = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // bttnProxyInfoProf
+            // btn_calificaciones
             // 
-            this.bttnProxyInfoProf.Location = new System.Drawing.Point(114, 141);
-            this.bttnProxyInfoProf.Name = "bttnProxyInfoProf";
-            this.bttnProxyInfoProf.Size = new System.Drawing.Size(98, 43);
-            this.bttnProxyInfoProf.TabIndex = 0;
-            this.bttnProxyInfoProf.Text = "Información del Profesor";
-            this.bttnProxyInfoProf.UseVisualStyleBackColor = true;
-            this.bttnProxyInfoProf.Click += new System.EventHandler(this.bttnProxyInfoProf_Click);
+            this.btn_calificaciones.Location = new System.Drawing.Point(76, 18);
+            this.btn_calificaciones.Name = "btn_calificaciones";
+            this.btn_calificaciones.Size = new System.Drawing.Size(99, 25);
+            this.btn_calificaciones.TabIndex = 0;
+            this.btn_calificaciones.Text = "calificaciones";
+            this.btn_calificaciones.UseVisualStyleBackColor = true;
+            this.btn_calificaciones.Click += new System.EventHandler(this.btn_calificaciones_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 253);
-            this.Controls.Add(this.bttnProxyInfoProf);
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btn_calificaciones);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -55,7 +55,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button bttnProxyInfoProf;
+        private System.Windows.Forms.Button btn_calificaciones;
     }
 }
 
