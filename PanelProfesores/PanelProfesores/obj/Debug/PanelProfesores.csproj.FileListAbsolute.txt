@@ -1,1 +1,11 @@
 C:\Users\Luis Mata\Documents\Universidad\SEPTIMO SEMESTRE\patrones de diseño de software\Final de patrones\PanelProfesores\PanelProfesores\bin\Debug\PanelProfesores.exe.config
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\bin\Debug\PanelProfesores.exe.config
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\bin\Debug\PanelProfesores.exe
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\bin\Debug\PanelProfesores.pdb
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.csprojResolveAssemblyReference.cache
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.FormEdad.resources
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.Properties.Resources.resources
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.csproj.GenerateResource.Cache
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.exe
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.pdb
+C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.Form1.resources
