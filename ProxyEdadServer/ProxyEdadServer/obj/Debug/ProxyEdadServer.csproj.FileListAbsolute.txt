@@ -1,7 +1,0 @@
-c:\users\jarp-laptop\documents\visual studio 2015\Projects\ProxyEdadServer\ProxyEdadServer\bin\Debug\ProxyEdadServer.exe.config
-C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\ProxyEdadServer\ProxyEdadServer\bin\Debug\ProxyEdadServer.exe.config
-C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\ProxyEdadServer\ProxyEdadServer\obj\Debug\ProxyEdadServer.csprojResolveAssemblyReference.cache
-C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\ProxyEdadServer\ProxyEdadServer\bin\Debug\ProxyEdadServer.exe
-C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\ProxyEdadServer\ProxyEdadServer\bin\Debug\ProxyEdadServer.pdb
-C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\ProxyEdadServer\ProxyEdadServer\obj\Debug\ProxyEdadServer.exe
-C:\Users\JARP-Laptop\Documents\GitHubb\FinalPatrones\ProxyEdadServer\ProxyEdadServer\obj\Debug\ProxyEdadServer.pdb
