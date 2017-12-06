@@ -25,6 +25,7 @@ namespace PanelProfesores
         private void btn_VerCalificaciones_Click(object sender, EventArgs e)
         {
             VPuntosExtra calcular = new VPuntosExtra();
+            //VEstudianteCuarto cuarto = new VEstudianteCuarto();
 
             VMatematicas luis = new VMatematicas { IdAlumno = 0183163, Calificacion = 8 };
             VMatematicas diego = new VMatematicas { IdAlumno = 0183245, Calificacion = 9 };
@@ -36,6 +37,17 @@ namespace PanelProfesores
             calcular.Agregar(diego);
             calcular.Agregar(jorge);
             calcular.Agregar(david);
+
+            string a = string.Format("la calificacion del alumno {1} es de  {0}", jorge.Calificacion * 0.60, jorge.IdAlumno);
+            lPuntaje.Text = a;
+
+            string b = string.Format("la calificacion del alumno {1} es de  {0}", luis.Calificacion * 0.60, luis.IdAlumno);
+            label2.Text = b;
+
+            string c = string.Format("la calificacion del alumno {1} es de  {0}", david.Calificacion * 0.60, david.IdAlumno);
+            label3.Text = c; 
+
+
         }
     }
 }

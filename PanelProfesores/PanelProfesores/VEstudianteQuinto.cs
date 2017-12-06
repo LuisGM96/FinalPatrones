@@ -11,6 +11,8 @@ namespace PanelProfesores
         public override void CalcularColoresCal(VColores colores)
         {
             Console.WriteLine("la calificacion del alumno {1} es de  {0}", colores.Calificacion * 0.80, colores.IdAlumno);
+            
+            
 
         }
 
