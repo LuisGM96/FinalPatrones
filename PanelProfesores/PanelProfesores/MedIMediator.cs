@@ -9,6 +9,6 @@ namespace PanelProfesores
     public interface MedIMediator
     {
         void AddParticipant(MedIParticipant participant);
-        void BroadcastMessage(string message, MedIParticipant sender);
+        string BroadcastMessage(string message, MedIParticipant sender);
     }
 }
