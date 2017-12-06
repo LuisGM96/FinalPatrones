@@ -16,5 +16,11 @@ namespace PanelProfesores
         {
             InitializeComponent();
         }
+
+        private void btn_calificaciones_Click(object sender, EventArgs e)
+        {
+            FormCalificaciones formCalificaciones = new FormCalificaciones();
+            formCalificaciones.Show();
+        }
     }
 }

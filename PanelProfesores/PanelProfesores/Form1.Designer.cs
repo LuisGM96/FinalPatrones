@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btn_calificaciones = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btn_calificaciones
+            // 
+            this.btn_calificaciones.Location = new System.Drawing.Point(76, 18);
+            this.btn_calificaciones.Name = "btn_calificaciones";
+            this.btn_calificaciones.Size = new System.Drawing.Size(99, 25);
+            this.btn_calificaciones.TabIndex = 0;
+            this.btn_calificaciones.Text = "calificaciones";
+            this.btn_calificaciones.UseVisualStyleBackColor = true;
+            this.btn_calificaciones.Click += new System.EventHandler(this.btn_calificaciones_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btn_calificaciones);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_calificaciones;
     }
 }
 

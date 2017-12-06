@@ -1,1 +1,11 @@
 C:\Users\Luis Mata\Documents\Universidad\SEPTIMO SEMESTRE\patrones de diseño de software\Final de patrones\PanelProfesores\PanelProfesores\bin\Debug\PanelProfesores.exe.config
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\bin\Debug\PanelProfesores.exe.config
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\bin\Debug\PanelProfesores.exe
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\bin\Debug\PanelProfesores.pdb
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.csprojResolveAssemblyReference.cache
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.Form1.resources
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.FormCalificaciones.resources
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.Properties.Resources.resources
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.csproj.GenerateResource.Cache
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.exe
+C:\Users\Luis Mata\Documents\GitHub\FinalPatrones\PanelProfesores\PanelProfesores\obj\Debug\PanelProfesores.pdb
