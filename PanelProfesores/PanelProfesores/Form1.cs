@@ -22,5 +22,21 @@ namespace PanelProfesores
             FormCalificaciones formCalificaciones = new FormCalificaciones();
             formCalificaciones.Show();
         }
+
+        private void bttnInfoProf_Click(object sender, EventArgs e)
+        {
+            FormEdad myForm = new FormEdad();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
+
+        private void bttnTerminados_Click(object sender, EventArgs e)
+        {
+            FormMediator myForm = new FormMediator();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
     }
 }

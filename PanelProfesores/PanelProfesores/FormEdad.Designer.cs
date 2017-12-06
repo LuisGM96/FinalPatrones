@@ -51,11 +51,11 @@
             // 
             // bttnEdad
             // 
-            this.bttnEdad.Location = new System.Drawing.Point(268, 125);
+            this.bttnEdad.Location = new System.Drawing.Point(254, 125);
             this.bttnEdad.Name = "bttnEdad";
-            this.bttnEdad.Size = new System.Drawing.Size(75, 31);
+            this.bttnEdad.Size = new System.Drawing.Size(89, 31);
             this.bttnEdad.TabIndex = 2;
-            this.bttnEdad.Text = "Entrar";
+            this.bttnEdad.Text = "Consultar";
             this.bttnEdad.UseVisualStyleBackColor = true;
             this.bttnEdad.Click += new System.EventHandler(this.bttnEdad_Click);
             // 
@@ -63,7 +63,7 @@
             // 
             this.Regresar.Location = new System.Drawing.Point(12, 125);
             this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(75, 31);
+            this.Regresar.Size = new System.Drawing.Size(85, 31);
             this.Regresar.TabIndex = 3;
             this.Regresar.Text = "Regresar";
             this.Regresar.UseVisualStyleBackColor = true;
