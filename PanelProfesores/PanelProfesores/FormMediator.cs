@@ -38,12 +38,13 @@ namespace PanelProfesores
             mediator.AddParticipant(participant3);
             mediator.AddParticipant(participant4);
 
-            participant1.SendMessage("Jorge");
+            
+            label1.Text = participant1.SendMessage("Jorge");
             System.Threading.Thread.Sleep(5000);
-            participant2.SendMessage("David");
-            participant1.SendMessage("Luis");
+            label2.Text = participant2.SendMessage("David");
+            label3.Text = participant1.SendMessage("Luis");
             System.Threading.Thread.Sleep(2000);
-            participant2.SendMessage("Diego");
+            label4.Text = participant2.SendMessage("Diego");
         }
     }
 }

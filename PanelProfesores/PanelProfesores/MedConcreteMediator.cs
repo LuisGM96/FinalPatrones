@@ -13,9 +13,10 @@ namespace PanelProfesores
         {
             participants.Add(participant);
         }
-        public void BroadcastMessage(string message, MedIParticipant sender)
+        public string BroadcastMessage(string message, MedIParticipant sender)
         {
-            Console.WriteLine("Alumno " + message + " ha terminado.");
+            string mes ="Alumno " + message + " ha terminado.";
+            return mes;
         }
     }
 }

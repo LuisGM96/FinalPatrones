@@ -13,9 +13,9 @@ namespace PanelProfesores
         {
             this.mediator = mediator;
         }
-        public void SendMessage(string message)
+        public string SendMessage(string message)
         {
-            mediator.BroadcastMessage(message, this);
+            return mediator.BroadcastMessage(message, this);
         }
     }
 }

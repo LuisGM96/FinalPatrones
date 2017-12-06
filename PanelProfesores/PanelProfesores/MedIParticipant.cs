@@ -8,6 +8,6 @@ namespace PanelProfesores
 {
     public interface MedIParticipant
     {
-        void SendMessage(string message);
+        string SendMessage(string message);
     }
 }
