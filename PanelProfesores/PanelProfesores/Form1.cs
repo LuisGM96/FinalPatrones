@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Patrones;
 
 namespace PanelProfesores
 {
@@ -37,6 +38,13 @@ namespace PanelProfesores
             this.Hide();
             myForm.ShowDialog();
             this.Close();
+        }
+
+        private void historyButton_Click(object sender, EventArgs e) {
+            Hide();
+            Patrones.Form1 form = new Patrones.Form1();
+            form.Closed += (s, args) => Show();
+            form.Show();
         }
     }
 }
