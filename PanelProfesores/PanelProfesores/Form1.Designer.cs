@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.bttnProxyInfoProf = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // bttnProxyInfoProf
+            // 
+            this.bttnProxyInfoProf.Location = new System.Drawing.Point(114, 141);
+            this.bttnProxyInfoProf.Name = "bttnProxyInfoProf";
+            this.bttnProxyInfoProf.Size = new System.Drawing.Size(98, 43);
+            this.bttnProxyInfoProf.TabIndex = 0;
+            this.bttnProxyInfoProf.Text = "Información del Profesor";
+            this.bttnProxyInfoProf.UseVisualStyleBackColor = true;
+            this.bttnProxyInfoProf.Click += new System.EventHandler(this.bttnProxyInfoProf_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Controls.Add(this.bttnProxyInfoProf);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button bttnProxyInfoProf;
     }
 }
 
