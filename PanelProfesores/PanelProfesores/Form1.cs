@@ -52,5 +52,21 @@ namespace PanelProfesores
             FormSubirNiveles formSubirNiveles = new FormSubirNiveles();
             formSubirNiveles.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormBuilder myForm = new FormBuilder();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            chainForm myForm = new chainForm();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
     }
 }
