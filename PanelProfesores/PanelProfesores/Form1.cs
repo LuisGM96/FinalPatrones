@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,6 +45,12 @@ namespace PanelProfesores
             Patrones.Form1 form = new Patrones.Form1();
             form.Closed += (s, args) => Show();
             form.Show();
+        }
+            
+        private void btn_niveles_Click(object sender, EventArgs e)
+        {
+            FormSubirNiveles formSubirNiveles = new FormSubirNiveles();
+            formSubirNiveles.Show();
         }
     }
 }
