@@ -1,4 +1,4 @@
-﻿namespace PanelProfesores
+namespace PanelProfesores
 {
     partial class Form1
     {
@@ -31,6 +31,7 @@
             this.btn_calificaciones = new System.Windows.Forms.Button();
             this.bttnInfoProf = new System.Windows.Forms.Button();
             this.bttnTerminados = new System.Windows.Forms.Button();
+            this.historyButton = new System.Windows.Forms.Button();
             this.btn_niveles = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -38,7 +39,7 @@
             // 
             this.btn_calificaciones.Location = new System.Drawing.Point(76, 18);
             this.btn_calificaciones.Name = "btn_calificaciones";
-            this.btn_calificaciones.Size = new System.Drawing.Size(99, 25);
+            this.btn_calificaciones.Size = new System.Drawing.Size(137, 25);
             this.btn_calificaciones.TabIndex = 0;
             this.btn_calificaciones.Text = "Calificaciones";
             this.btn_calificaciones.UseVisualStyleBackColor = true;
@@ -66,12 +67,22 @@
             this.bttnTerminados.UseVisualStyleBackColor = true;
             this.bttnTerminados.Click += new System.EventHandler(this.bttnTerminados_Click);
             // 
+            // historyButton
+            // 
+            this.historyButton.Location = new System.Drawing.Point(76, 49);
+            this.historyButton.Name = "historyButton";
+            this.historyButton.Size = new System.Drawing.Size(137, 23);
+            this.historyButton.TabIndex = 3;
+            this.historyButton.Text = "Historial de Actividades";
+            this.historyButton.UseVisualStyleBackColor = true;
+            this.historyButton.Click += new System.EventHandler(this.historyButton_Click);
+            //
             // btn_niveles
             // 
-            this.btn_niveles.Location = new System.Drawing.Point(77, 60);
+            this.btn_niveles.Location = new System.Drawing.Point(76, 78);
             this.btn_niveles.Name = "btn_niveles";
-            this.btn_niveles.Size = new System.Drawing.Size(97, 22);
-            this.btn_niveles.TabIndex = 3;
+            this.btn_niveles.Size = new System.Drawing.Size(137, 23);
+            this.btn_niveles.TabIndex = 4;
             this.btn_niveles.Text = "Subir niveles";
             this.btn_niveles.UseVisualStyleBackColor = true;
             this.btn_niveles.Click += new System.EventHandler(this.btn_niveles_Click);
@@ -81,6 +92,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.historyButton);
             this.Controls.Add(this.btn_niveles);
             this.Controls.Add(this.bttnTerminados);
             this.Controls.Add(this.bttnInfoProf);
@@ -96,6 +108,7 @@
         private System.Windows.Forms.Button btn_calificaciones;
         private System.Windows.Forms.Button bttnInfoProf;
         private System.Windows.Forms.Button bttnTerminados;
+        private System.Windows.Forms.Button historyButton;
         private System.Windows.Forms.Button btn_niveles;
     }
 }
