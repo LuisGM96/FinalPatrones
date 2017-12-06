@@ -27,5 +27,9 @@ namespace PanelProfesores
                 calificacion.Aceptar(visitor);
             }
         }
+        //public string toString()
+        //{
+            
+        //}
     }
 }
