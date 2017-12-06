@@ -40,10 +40,10 @@ namespace PanelProfesores
 
             
             label1.Text = participant1.SendMessage("Jorge");
-            System.Threading.Thread.Sleep(5000);
+            //System.Threading.Thread.Sleep(5000);
             label2.Text = participant2.SendMessage("David");
             label3.Text = participant1.SendMessage("Luis");
-            System.Threading.Thread.Sleep(2000);
+            //System.Threading.Thread.Sleep(2000);
             label4.Text = participant2.SendMessage("Diego");
         }
     }
