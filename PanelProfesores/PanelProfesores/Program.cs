@@ -10,6 +10,7 @@ namespace PanelProfesores
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
+        /// Esperemos sirva esto como StyleCop
         /// </summary>
         [STAThread]
         static void Main()
